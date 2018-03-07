@@ -1,0 +1,68 @@
+body{
+  display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+  font-family: 'Barlow', sans-serif;
+  color:#7c3f12;
+  padding-top: 2em;
+}
+
+.card-box-main {
+	border: 1px solid #e8a571;
+	border-radius:10px;
+  box-shadow: 2px 2px 0px #e8a571;
+  background-color: #ffddc4;
+	padding: 0 10px;
+	width:300px;
+}
+
+.card-box-inside {
+  border: 1px solid #e8a571;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #e8a571;
+  box-sizing:border-box;
+	background-color: #fff;
+	padding: 0 10px 10px;
+	margin: 10px 0;
+  width:300px;
+}
+
+h3{
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+	text-align: center;
+  color: #7c3f12;
+  text-shadow: 1px 0px 0px #e8a571;
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+img{
+  border: 1px solid #e8a571;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #e8a571;
+  width: 300px
+ }
+
+ul {
+	list-style: none;
+  padding: 0;
+}
+
+li span {
+	font-weight: 600;
+}
+
+hr {
+  border-top: 1px solid #e8a571;
+}
+
+.fact {
+  color: #e8a571;
+  text-shadow: 1px 0px 0px #e8a571;
+}
+
+.description {
+  text-shadow: 1px 0px 0px #e8a571;
+}
